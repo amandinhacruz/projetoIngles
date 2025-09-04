@@ -1,19 +1,181 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <title>English Tense Quiz</title>
+
 </head>
+
 <body>
+
     <main>
-        <section class="Simple Present"></section>
 
-        <section class="Simple Past"></section>
+        <section class="Simple Present">
 
-        <section class="Present Continuous"></section>
+            <h2>Simple Present</h2>
 
-        <section class="Past Continuous"></section>
+            <div class="question" data-correct="1">
+
+                <p>Do you like pizza?</p>
+
+                <label><input type="radio" name="q1"> Yes, I did.</label>
+
+                <label><input type="radio" name="q1"> Yes, I do.</label>
+
+                <label><input type="radio" name="q1"> Yes, I am.</label>
+
+                <label><input type="radio" name="q1"> Yes, I was.</label>
+
+            </div>
+
+
+
+            <div class="question" data-correct="0">
+
+                <p>Where do you usually go on weekends?</p>
+
+                <label><input type="radio" name="q2"> I go to the park.</label>
+
+                <label><input type="radio" name="q2"> I went to the park.</label>
+
+                <label><input type="radio" name="q2"> I am going to the park.</label>
+
+                <label><input type="radio" name="q2"> I was going to the park.</label>
+
+            </div>
+
+        </section>
+
+
+
+        <section class="Simple Past">
+
+            <h2>Simple Past</h2>
+
+            <div class="question" data-correct="1">
+
+                <p>Did you watch TV yesterday?</p>
+
+                <label><input type="radio" name="q3"> Yes, I watch TV.</label>
+
+                <label><input type="radio" name="q3"> Yes, I watched TV.</label>
+
+                <label><input type="radio" name="q3"> I am watching TV.</label>
+
+                <label><input type="radio" name="q3"> Yes, I was watching TV.</label>
+
+            </div>
+
+
+
+            <div class="question" data-correct="1">
+
+                <p>>What did you eat for dinner last night?</p>
+
+                <label><input type="radio" name="q4"> I eat pasta.</label>
+
+                <label><input type="radio" name="q4"> I ate pasta.</label>
+
+                <label><input type="radio" name="q4"> I am eating pasta.</label>
+
+                <label><input type="radio" name="q4"> I was eating pasta.</label>
+
+            </div>
+
+        </section>
+
+
+
+        <section class="Present Continuous">
+
+            <h2>Present Continuous</h2>
+
+            <div class="question" data-correct="2">
+
+                <p>What are you doing right now?</p>
+
+                <label><input type="radio" name="q5"> I do my homework.</label>
+
+                <label><input type="radio" name="q5"> I did my homework.</label>
+
+                <label><input type="radio" name="q5"> I am doing my homework.</label>
+
+                <label><input type="radio" name="q5"> I was doing my homework.</label>
+
+            </div>
+
+
+
+            <div class="question" data-correct="2">
+
+                <p>Are they studying for the exam?</p>
+
+                <label><input type="radio" name="q6"> Yes, they study.</label>
+
+                <label><input type="radio" name="q6"> Yes, they studied.</label>
+
+                <label><input type="radio" name="q6"> Yes, they are studying.</label>
+
+                <label><input type="radio" name="q6"> Yes, they were studying.</label>
+
+            </div>
+
+        </section>
+
+
+
+        <section class="Past Continuous">
+
+            <h2>Past Continuous</h2>
+
+            <div class="question" data-correct="3">
+
+                <p>What were you doing at 8 p.m. yesterday?</p>
+
+                <label><input type="radio" name="q7"> I do my homework.</label>
+
+                <label><input type="radio" name="q7"> I did my homework.</label>
+
+                <label><input type="radio" name="q7"> I am doing my homework.</label>
+
+                <label><input type="radio" name="q7"> I was doing my homework.</label>
+
+            </div>
+
+
+
+            <div class="question" data-correct="3">
+
+                <p>Were they playing football when it started to rain?</p>
+
+                <label><input type="radio" name="q8"> Yes, they play football.</label>
+
+                <label><input type="radio" name="q8"> Yes, they played football.</label>
+
+                <label><input type="radio" name="q8"> Yes, they are playing football.</label>
+
+                <label><input type="radio" name="q8"> Yes, they were playing football.</label>
+
+            </div>
+
+        </section>
+
+
+
+        <button onclick="checkAnswers()">Submit Answers</button>
+
+        <div id="result"></div>
+
     </main>
+
+    <script src="script.js"></script>
+
 </body>
+
 </html>
